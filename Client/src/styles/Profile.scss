@@ -1,0 +1,121 @@
+@import "./variables";
+
+
+.btn-reg{
+    background-color: $secondary;
+    width: 100%;
+    height: 45px;
+    border-radius: 12px;
+    color: $primary;
+    border: 0.5px solid $secondary;
+    transition: 0.3s;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.btn-reg:hover{
+    background-color: $primary;
+    border: 1.5px solid $secondary;
+    color: $secondary;
+}
+
+.design-reg-card{
+   height:75vh;
+   display: flex;
+   justify-content: center;
+align-items: center;
+position: relative;
+left: 77px;
+}
+
+
+.form-control{
+    border: 0.5px solid $secondary !important;
+    background-color: $primary;
+    color: $secondary;
+}
+
+.form-control:focus{
+    border: 0.5px solid $secondary !important;
+    background-color: $primary;
+    color: $secondary;
+    box-shadow:0 0 0 0;
+}
+
+.text-design h5{
+    color: $secondary !important;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile{
+    overflow: hidden !important   ;
+}
+
+.text-design span{
+    margin-left: 4px;
+    font-weight: 600;
+    color: $secondary !important;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.1s;
+}
+
+
+.text-design span:hover{
+    text-decoration: underline;
+   
+}
+
+
+
+.card{
+    background-color: $secondary;
+    color: $primary;
+    width: 1000px;
+    height: 60vh;
+    text-align: center;
+}
+
+.card-text{
+    font-size: 18px !important;
+    font-weight: 500;
+
+}
+
+.card-title{
+    font-size: 22px !important;
+    font-weight: 600;
+}
+
+.phone_text{
+    position: relative;
+    bottom: 13px;
+}
+
+.h-profile{
+    height: 53vh;
+}
+
+.img-size{
+    width: 84%;
+    position: relative;
+    right: 51px;
+    border-radius: 7px 0px 0px 7px;
+    height: 62%;
+}
+
+.lottie-profile{
+    width: 100%;
+    height: 180px;
+}
+
+.card-body{
+    position: relative;
+    bottom: 20px;
+}
+

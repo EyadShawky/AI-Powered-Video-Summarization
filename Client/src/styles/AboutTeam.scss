@@ -1,0 +1,27 @@
+@import "./variables";
+.header-list{
+    background-color: $third !important;
+    color: $primary !important;
+    font-weight: 600;
+}
+
+.text-header-about{
+    font-weight: 700;
+    color: $secondary;
+
+}
+
+.img-fluid{
+    border-radius: 22px;
+    height: 100%;
+}
+
+.about-height{
+    height: 79vh;
+}
+
+.list-group-item{
+    background-color: $secondary;
+    color: $primary;
+}
+

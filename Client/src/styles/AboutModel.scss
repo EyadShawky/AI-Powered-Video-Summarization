@@ -1,0 +1,94 @@
+@import "./variables";
+.btn-model-lap{
+    background-color: $secondary;
+    width: 400px;
+    height: 50px;
+    border-radius: 32px;
+    color: $primary;
+    border: 0.5px solid $secondary;
+    transition: 0.3s;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.btn-model-lap:hover{
+    background-color: $primary;
+    border: 1.5px solid $secondary;
+    color: $secondary;
+}
+
+.rounded-img{
+    border-radius: 32px;
+}
+
+.sub-header{
+    color: $third;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.body-header-contant{
+    font-size: 32px;
+    font-weight: bold !important;
+    color: $secondary;
+}
+
+.body-contant{
+    font-size: 18px;
+    font-weight: 400 !important;
+    color: $secondary;
+}
+
+@media (max-width: 767px) {
+    .sub-header{
+        color: $third;
+    }
+    
+    .body-header-contant{
+        margin-top: 32px;
+        font-size: 32px;
+    }
+    
+    .body-contant{
+        font-size: 16px;
+    }
+
+    .btn-model-lap{
+        position: relative;
+        top: 30px;
+    }
+    
+    
+  }
+
+.header{
+    color: $secondary;
+}
+
+.model-lottie{
+    width: 750px;
+    height: 350px;
+}
+.header-model{
+    height: 50vh;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+
+.body-header-content {
+    font-size: 38px;
+    color: $secondary;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.body-content{
+    font-size: 17px;
+    font-weight: 500;
+    color: $third;
+}
+
+.body-content li{
+    list-style: circle;
+}

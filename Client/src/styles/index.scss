@@ -1,0 +1,59 @@
+@import "./variables";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+html,
+body {
+  background-color: $primary;
+  font-family: "Poppins", sans-serif;
+  color: $third;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  text-transform: capitalize !important;
+  padding: 0;
+  margin: 0;
+}
+
+.ant-collapse-item {
+  background-color: $secondary !important;
+}
+
+:where(.css-dev-only-do-not-override-1xg9z9n).ant-collapse-borderless
+  > .ant-collapse-item
+  > .ant-collapse-content
+  > .ant-collapse-content-box {
+  color: $primary !important;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+:where(.css-dev-only-do-not-override-1xg9z9n).ant-collapse-borderless
+  > .ant-collapse-item
+  > .ant-collapse-content
+  > .ant-collapse-content-box
+  > video {
+  width: 100%;
+  height: 40vh;
+}
+
+.scroller::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge, and Firefox */
+.scroller {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+
+.ant-message-notice-content span{
+  color : $secondary !important;
+}

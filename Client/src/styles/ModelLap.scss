@@ -1,0 +1,118 @@
+@import "./variables";
+
+.ant-upload-drag {
+  background-color: $secondary !important;
+  height: 300px !important;
+  border-radius: 22px !important;
+}
+
+.ant-upload-text {
+  color: $primary !important;
+}
+
+.ant-upload-hint {
+  color: $fourth !important;
+}
+
+.vh-btn {
+  height: 72vh;
+}
+
+.btn-model {
+  background-color: $primary;
+  width: 100%;
+  height: 60px;
+  border-radius: 22px;
+  color: $secondary;
+  border: 2.5px solid $secondary;
+  transition: 0.3s;
+  font-size: 22px;
+  font-weight: bold;
+  align-self: center;
+}
+
+.btn-search {
+  background-color: $primary;
+  border-radius: 5px;
+  padding: 0px 10px;
+  color: $secondary;
+  border: 2.5px solid $primary;
+  transition: 0.3s;
+  font-size: 20px;
+}
+
+.btn-fetch {
+  background-color: $primary;
+  border-radius: 5px;
+  padding: 0px 10px;
+  color: $secondary;
+  border: 2.5px solid $secondary !important;
+  transition: 0.3s;
+  font-size: 20px;
+  position: relative;
+  bottom: 20px;
+}
+
+.youtube-search-container {
+  overflow: hidden;
+  background-color: $primary;
+  border: 1px solid $secondary;
+  border-radius: 8px;
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  padding: 0px;
+}
+
+.youtube-search-input {
+  padding: 0px 10px;
+  outline: none;
+  border: none;
+  flex-grow: 1;
+}
+
+.btn-model:hover,
+.btn-search:hover,
+.btn-fetch:hover {
+  background-color: $secondary;
+  border: 2.5px solid $secondary;
+  color: $primary;
+}
+
+.output-video-summary {
+  padding: 16px;
+  width: 100%;
+  height: 300px !important;
+  background-color: $secondary;
+  border-radius: 22px;
+  border: 1px solid black;
+}
+
+
+.model-lab-container span {
+  color: unset !important;
+}
+
+.video-file-container div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: flex-end;
+}
+
+.video-files-container h3{
+  color: $secondary;
+  margin-bottom: 18px;
+}
+
+.container-loading h3{
+  font-weight: 600;
+  color: $secondary;
+}
+
+@media (max-width: 768px) {
+  .video-files-container{
+    margin-bottom: 80px;
+    text-align: center;
+  }
+}

@@ -1,0 +1,68 @@
+@import "./variables";
+
+.navbar__color{
+    background-color: $secondary !important;
+    padding: 15px;
+    border-radius: 0 0 32px 32px;
+    font-size: 20px;
+}
+
+
+.color__nav{
+    color: $primary !important;
+    transition: 0.3s;
+}
+
+.color__nav:hover{
+    color: #C9D6DF !important ;
+}
+
+.btn__register{
+    background-color: $primary !important;
+    width: 180px;
+    height: 45px;
+    border-radius: 32px;
+    border: 0.5px solid $primary !important;
+    color: $secondary;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.btn__register:hover{
+    border-radius: 0.5px solid $primary !important;
+    background-color: $secondary !important;
+    color : $primary !important; 
+}
+
+.logo{
+    z-index: 99999999999999999999999999 !important;
+}
+
+.ant-btn-default {
+    background-color: $secondary !important;
+    width: 130px;
+    height: 45px;
+    border-radius: 32px;
+    border: 0.5px solid $primary !important;
+    color: $primary;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+:where(.css-dev-only-do-not-override-1xg9z9n).ant-btn-default:not(:disabled):not(.ant-btn-disabled):hover{
+    border-radius: 0.5px solid $secondary !important;
+    background-color: $fourth !important;
+    color : $secondary !important; 
+    z-index: 999;
+}
+
+.ant-dropdown-menu{
+    margin-top: 4px !important;
+    background-color: $fourth !important;
+}
+
+.lottie-joinus{
+    width: 30px;
+    height: 30px;
+    
+}
